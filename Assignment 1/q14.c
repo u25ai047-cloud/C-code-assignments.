@@ -23,4 +23,11 @@ int main()
     else if(x>=48 && x<=57) {
         printf("The character is a digit.");
     }
+
+    else {
+        printf("The character is a special symbol.");
+    }
+
+    return 0;
+    
 }
